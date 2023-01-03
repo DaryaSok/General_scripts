@@ -1,5 +1,6 @@
 #R plots for default datasets
 
+library(ggplot2)
 #linear model for each Species
 ggplot(iris,aes(x=Sepal.Width, y=Petal.Width, col=Species)) +
   geom_point() +
